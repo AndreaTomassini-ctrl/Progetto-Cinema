@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "email": "andrea@gmail.com",
+      "password": "$2a$10$gFj/C0d.1GmW3c1Upi9UTO6Cdhn5cjBguDDjnDN3DqYuPkUAud8uy",
+      "nome e cognome": "Andrea Tomassini",
+      "id": 1
+    },
+    {
+      "email": "francesco@gmail.com",
+      "password": "$2a$10$/dwurXjnahtEnvUWuW2uMO124OG6REOVV5gjSvELHexFdbDhw2Ota",
+      "nome e cognome": "Francesco Tedesco",
+      "id": 2
+    },
+    {
+      "email": "luca@gmail.com",
+      "password": "$2a$10$Ww9UOgEqOoNWDL2SpOJkgO.3bMeq2Nn2WyEmvjTG0uxD2dLyxBb/W",
+      "nome e cognome": "Luca Tedesco",
+      "id": 3
+    }
+  ],
+  "posts": ["francesco", "Luca"]
+}

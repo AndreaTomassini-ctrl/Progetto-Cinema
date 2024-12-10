@@ -1,0 +1,493 @@
+body{
+    background-color: rgb(44, 37, 37);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 40px;
+    overflow-x: hidden; /* Nasconde solo la barra orizzontale */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid white; /* Colore e spessore della linea */
+    padding-bottom: 10px; /* Distanza tra il testo e la linea */
+}
+
+.logosito{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 100px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+h1{
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+
+h2{
+    position: relative;
+    margin-top: 60px;
+    left: 260px;
+    top: 17px;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 130px;
+    color: rgb(239, 95, 18);
+}
+
+h4{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: rgb(239, 95, 18);
+}
+
+.prezzo{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: rgb(239, 95, 18);
+}
+
+
+h5{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: rgb(239, 95, 18);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    left: 500px;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+   
+}
+
+.cercafilm{
+    margin-left: 50px;
+    background-color: rgb(43, 43, 85);
+    height: 80px;
+    width: 379px;
+    margin-top: -10px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.container{
+    position: absolute;
+    top: 851px;
+    right: 50px;
+    border: 25px solid rgb(223, 116, 45);
+    width: 66%;
+}
+
+.container select{
+    border: 3px solid black;
+    border-radius: 0; 
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgb(142, 19, 19);
+    color: white;
+    width: 24.67%;
+}
+
+.salafilm{
+    position: relative;
+    bottom: 55px;
+    left: 300px;
+}
+
+#frase{
+    position: absolute;
+    top: 990px;
+    left: 600px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+.film-container {
+    display: flex; /* Attiva Flexbox */
+    flex-wrap: wrap;
+    gap: 20px; /* Spaziatura tra gli elementi */
+    justify-content: center; /* Allinea gli elementi orizzontalmente al centro */
+    width: 70%;
+    margin-left: 220px;
+}
+
+.film-container1{
+    display: flex; /* Attiva Flexbox */
+    flex-wrap: wrap;
+    gap: 20px; /* Spaziatura tra gli elementi */
+    justify-content: center; /* Allinea gli elementi orizzontalmente al centro */
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.film{
+    text-align: center;
+    width: 300px;
+}
+
+.film img {
+    width: 63%; /* L'immagine occupa tutta la larghezza del contenitore */
+    height: 300px; /* Mantiene le proporzioni */
+    cursor: pointer;
+}
+
+#film, #filmPari, #filmDispari, #TreFilm{
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    gap: 5px; /* Spazio ridotto tra le sezioni */
+    background-color: rgb(68, 62, 62);
+    margin-top: 40px;
+    height: 350px;
+
+}
+
+footer section {
+    position: relative;
+    width: 15%;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.menu{
+    position: relative;
+    right: 100px;
+}
+
+.filmperfetto{
+    position: relative;
+    left: 50px;
+}
+
+.paragrafo{
+    position: absolute;
+    top: 2540px;
+    left: 0;
+    margin-left: 210px;
+    margin-right: 100px;
+}
+
+
+.container1 {
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    margin-left: 170px;
+}
+
+
+#nome, #email, #oggetto, textarea {
+    width: 95%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 0;
+    border: 2px solid rgb(205, 197, 197);
+}
+
+textarea{
+    width: 620px;
+    height: 200px;
+}
+
+#bottone{
+    border-radius: 0;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 280px;
+    padding: 20px;
+    color: orangered;
+    font-weight: bold;
+
+}
+
+span {
+    display: block;
+    font-size: 14px; /* Puoi personalizzare il font o altre proprietà */
+    color: red; /* Colore per rendere il testo leggibile */
+  }
+
+
+#salaA {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 130px;
+    margin-left: 300px;
+    color: rgb(249, 111, 25);
+}
+
+#salaB {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 300px;
+    color: rgb(249, 111, 25);
+}
+
+
+.informazionisalaA{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 300px;
+    color: white;
+  
+}
+
+.prezzisalaA{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 300px;
+    color: white;
+}
+
+.informazionisalaB{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 310px;
+    margin-left: 300px;
+    color: white; 
+}
+
+.prezzisalaB{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 130px;
+    margin-left: 750px;
+    color: white;
+}
+
+.informazionisalaC{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 300px;
+    color: white;
+  
+}
+
+.prezzisalaC{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 60px;
+    color: white;
+}
+
+
+#fotocinema1 {
+    position: absolute;
+    top: 270px;
+    right: 400px;
+    border: 2px solid white;
+}
+
+#fotocinema1:hover {
+    filter: brightness(130%) contrast(110%) saturate(110%); /* Immagine più chiara al passaggio del mouse */
+}
+
+
+
+#fotocinema2{
+    position: absolute;
+    top: 170px;
+    right: 600px;
+    border: 2px solid white;
+}
+
+#fotocinema2:hover {
+    filter: brightness(130%) contrast(110%) saturate(110%); /* Immagine più chiara al passaggio del mouse */
+}
+
+
+#fotocinema3 {
+    position: absolute;
+    top: 800px;
+    right: 1100px;
+    border: 2px solid white;
+}
+
+#fotocinema3:hover {
+    filter: brightness(130%) contrast(110%) saturate(110%); /* Immagine più chiara al passaggio del mouse */
+}
+
+#fotocinema4{
+    position: absolute;
+    top: 900px;
+    right: 860px;
+    border: 2px solid white;
+}
+
+#fotocinema4:hover {
+    filter: brightness(130%) contrast(110%) saturate(110%); /* Immagine più chiara al passaggio del mouse */
+}
+
+
+#fotocinema5{
+    position: absolute;
+    top: 1370px;
+    left: 700px;
+    border: 2px solid white;
+}
+
+#fotocinema5:hover {
+    filter: brightness(130%) contrast(110%) saturate(110%); /* Immagine più chiara al passaggio del mouse */
+}
+
+
+#fotocinema6{
+    position: absolute;
+    top: 1500px;
+    left: 930px;
+    border: 2px solid white;
+}
+
+#fotocinema6:hover {
+    filter: brightness(130%) contrast(110%) saturate(110%); /* Immagine più chiara al passaggio del mouse */
+}
+
+
+
+.servizisalaA h4{
+    color: rgb(249, 111, 25);
+    margin-left: -380px;
+}
+
+
+.servizisalaA{
+    position: absolute;
+    top: 450px;
+    left: 290px;
+    font-size: 20px;
+
+}
+
+.servizisalaB{
+    position: absolute;
+    top: 850px;
+    left: 850px;
+    font-size: 20px;
+
+}
+
+.servizisalaB h4{
+    color: rgb(249, 111, 25);
+    margin-left: -380px;
+}
+
+
+.servizisalaC{
+    position: absolute;
+    top: 1500px;
+    right: 700px;
+    font-size: 20px;
+
+}
+
+.servizisalaC h4{
+    color: rgb(249, 111, 25);
+    margin-left: -380px;
+    
+}
+
+
+#slider {
+    height: 640px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+    
+    
+#slider .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 100%;
+}
+    
+#slider .gladiatore {
+    background-image: url(Immagini/immagine2.jpg);
+}
+    
+#slider .film3 {
+    background-image: url(Immagini/immagine3.jpg);
+}
+    
+#slider .terapia {
+    background-image: url(Immagini/immagine4.jpg);
+}
+    
+#slider .spostaASinistra {
+    left: -100%;
+    transition: 3s;
+}
+    
+#slider .visibile {
+    left: 0;
+    transition: 3s; 
+} 
+
+.EventiePubblicita{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.Pubblicita {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#immagine1, #immagine2, #immagine3, #immagine4, #immagine5, #immagine6, #immagine7, #immagine8, #immagine9 {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    width: 300px;
+    height: 500px;
+
+}
+
+.SpiegazioneImmagine{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    width: 500px;
+}
+
+
+
+

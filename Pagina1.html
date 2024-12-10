@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App per prenotazione posti cinema</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./Pagina1.js" defer></script>
+</head>
+<body>
+
+<header>
+
+<div class="logosito">
+    <img src="Immagini/logo_sac.png" alt="logo Cinema" width="80px" height="80px">
+    <h1>Il Film Perfetto<br>al Cinema</h1>
+</div>
+
+
+<nav>
+    <ul>
+        <li><a href="Pagina2.html">Sale Cinematografiche</a></li>
+        <li><a href="Pagina3.html">Tariffe e Sconti</a></li>
+        <li><a href="Pagina4.html">Eventi e Pubblicità</a></li>
+        <li><a href="Pagina5.html">Contatti</a></li>
+    </ul>
+</nav>
+
+
+<div id="slider">
+
+    <div class="image gladiatore visibile"></div>
+    <div class="image film3"></div>
+    <div class="image terapia"></div>
+                                        
+</div>
+
+</header>
+<br>
+<br>
+
+<main>
+
+<p class="cercafilm"><strong>CERCA IL FILM IDEALE PER TE:</strong></p>
+
+<div class="container">
+
+    <select name="NomeSala" id="NomeSala">
+        <option value="">SELEZIONA SALA</option>
+        <option value="SALA A">SALA A</option>
+        <option value="SALA B">SALA B</option>
+        <option value="SALA C">SALA C</option>
+    </select>
+
+    <select name="NomeFilm" id="NomeFilm">
+    
+        <option value="">SELEZIONA IL FILM</option>
+        <option id="nomefilm1" value=""></option>
+        <option id="nomefilm2" value=""></option>
+        <option id="nomefilm3" value=""></option>
+
+    </select>
+
+    <select name="GiornoDisponibile" id="GiornoDisponibile">
+    
+        <option value="">SELEZIONA IL GIORNO</option>
+        <option id="giorno1" value=""></option>
+        <option id="giorno2" value=""></option>
+        <option id="giorno3" value=""></option>
+
+    </select>
+
+    <select name="OraDisponibile" id="OraDisponibile">
+    
+        <option value="">SELEZIONA L'ORA</option>
+        <option id="oredisponibile1" value=""></option>
+        <option id="oredisponibile2" value=""></option>
+        <option id="oredisponibile3" value=""></option>
+        <option id="oredisponibile4" value=""></option>
+        <option id="oredisponibile5" value=""></option>
+
+    </select>
+
+</div>
+
+<h2><strong style="color: rgb(230, 99, 34); font-size: 30px;">/ </strong>Film al Cinema</h2>
+<hr style="width: 65%; margin-left: 250px;">
+
+<nav class="salafilm">
+    <ul>
+        <li id="film">Tutti I film</li>
+        <li id="filmPari">Sala A</li>
+        <li id="filmDispari">Sala B</li>
+        <li id="TreFilm">Sala C</li>
+    </ul>    
+</nav>
+
+<span id="frase"></span>
+<br>
+
+<div class="film-container">
+    <div class="film">
+        <img src="./Immagini/immagine6.jpg" alt="immagine5" width="250px" height="250px">
+        <p>/ Il Gladiatore II</p>
+    </div>
+    <div class="film">
+        <img src="./Immagini/immagine7.jpg" alt="immagine6" width="250px" height="250px">
+        <p>/ Il Ragazzo Dai Pantaloni Rosa</p>
+    </div>
+    <div class="film">
+        <img src="./Immagini/immagine8.jpg" alt="immagine7" width="250px" height="250px">
+        <p>/ Napoli - New York</p>
+    </div>
+    <div class="film">
+        <img src="./Immagini/immagine9.jpg" alt="immagine8" width="250px" height="250px">
+        <p>/ Una Terapia Di Gruppo</p>
+    </div>
+    <div class="film">
+        <img src="./Immagini/immagine10.jpg" alt="immagine9" width="250px" height="250px">
+        <p>/ Tre giorni sulle ali della follia</p>
+    </div>
+    <div class="film">
+        <img src="./Immagini/immagine11.jpg" alt="immagine10" width="250px" height="250px">
+        <p>/ Uno Rosso</p>
+    </div>
+    <div class="film">
+        <img src="./Immagini/immagine12.jpg" alt="immagine12" width="250px" height="250px">
+        <p>/ Oceania 2</p>
+    </div>
+    <div class="film">
+        <img src="./Immagini/immagine13.jpg" alt="immagine13" width="250px" height="250px">
+        <p>/ Wicked</p>
+    </div>
+    <div class="film">
+        <img src="./Immagini/immagine14.jpg" alt="immagine14" width="250px" height="250px">
+        <p>/ Giurato Numero 2 </p>
+    </div>
+</div>
+
+</main>
+
+<footer>
+    <section class="filmperfetto">
+        <p><em>IL FILM PERFETTO</em></p>
+        <hr>
+        <p>F.A.P. SRL - P.IVA 05977260400</p>
+        <p>Servizio attivo dal lunedì alla domenica dalle ore 10.00 alle ore 21.00</p>
+    </section>
+
+    <section>
+        <p><em>SALE DISPONIBILI PER VOI</em></p>
+        <hr>
+        <p>Sala A</p>
+        <p>Sala B</p>
+        <p>Sala C</p>
+    </section>
+
+    <section class="menu">
+        <p><em>MENU'</em></p>
+        <hr>
+        <p>Sale Cinematografiche</p>
+        <p>Tariffe e sconti</p>
+        <p>Eventi e pubblicità</p>
+        <p>Contatti</p>
+    </section>
+
+<br>
+<br>
+
+<div class="paragrafo">
+    <hr style="width: 100%;">
+    <p>Costi del servizio Call Center: il costo della chiamata da rete fissa è di € 0,97 al minuto con addebito alla 
+    risposta di € 0,12. Prezzi IVA inclusa. Per l'accesso da rete fissa potrebbe essere necessario richiedere l'abilitazione 
+    chiamando il numero clienti del proprio gestore telefonico. Non anteporre alcun prefisso al numero del Call Center indicato.</p>
+</div>
+</footer>
+
+
+</body>
+</html>
